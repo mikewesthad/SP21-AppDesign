@@ -1,0 +1,53 @@
+/*  
+  CSS comments are a little different from HTML comments.
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+html {
+  font-size: 22px;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  background: url("../images/memphis-colorful-dim.png");
+  color: rgb(13, 13, 14);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-decoration: dotted underline;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+#nav-logo {
+  font-size: 2rem;
+}
+
+#main-nav {
+  font-size: 1.25rem;
+}
+
+.emoji-list {
+  list-style: none;
+}
+
+/* ::before is a pseudo-element. */
+.emoji-list li::before {
+  content: "👉🏽";
+  padding-right: 0.5rem;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>👋🏽👋🏽👋🏽</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <script type="module" src="./js/index.js"></script>
+  </head>
+  <body>
+    <!-- 
+      This is a comment.
+
+      It is ignored by the browser when rendering.  
+    -->
+
+    <!--
+      h1 - header of level importance 1.
+      p - paragraph of text.
+      hr - horizontal rule.
+      em - emphasized text.
+     -->
+
+    <!-- Header - intro content like navigation, logo, etc. -->
+    <header>
+      <span id="nav-logo">💿💿💿</span>
+      <!-- Nav is used for navigation links -->
+      <nav id="main-nav">
+        <!-- Inside of a nav, you will usually place anchor tags. -->
+        <a href="./index.html">Home</a> | <a href="./about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>About Me</h1>
+
+      <!-- White space is collapsed by default in HTML. -->
+      <!-- <hr /> -->
+      <h2>Mike Hadley</h2>
+      <p>We're learning HTML <em>together</em>!</p>
+
+      <div>
+        <div id="js-output"></div>
+        <button id="click-button">Click Me</button>
+        <div>
+          <input type="text" id="speak-input" />
+          <button id="speak-button">Speak</button>
+        </div>
+      </div>
+
+      <!-- Nesting demo: -->
+      <p>Some things I've been doing lately:</p>
+      <!-- ul = parent element, li = child element -->
+      <ul class="emoji-list">
+        <li>Learning to make sauerkraut</li>
+        <li>Cooking my way through a cookbook</li>
+        <li>Making cold brew</li>
+      </ul>
+      <p>Some languages I am going to be using:</p>
+      <ul class="emoji-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>TS</li>
+        <li>React</li>
+      </ul>
+      <p>Demo list:</p>
+      <ul>
+        <li>Some</li>
+        <li>Other</li>
+        <li>Stuff</li>
+      </ul>
+
+      <!-- Attribute demo: -->
+      <p>
+        An app I used daily is
+        <a href="https://todoist.com" target="_blank" title="Software recommendation">Todoist</a>.
+      </p>
+
+      <!-- Load an image from a relative URL. -->
+      <img src="./images/beeple-potus-3012.gif" alt="Some cool art" width="300" />
+    </main>
+
+    <footer>© Mike Hadley, 2021</footer>
+  </body>
+</html>

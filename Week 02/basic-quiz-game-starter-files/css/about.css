@@ -1,0 +1,28 @@
+#click-button,
+#speak-button {
+  display: block;
+  margin: 1rem 0;
+}
+
+#click-button {
+  animation: pulse 1s infinite alternate-reverse;
+}
+
+#speak-button {
+  transform: scale(1) rotate(0);
+  transition: transform 0.15s;
+}
+
+#speak-button:hover,
+#speak-button:active {
+  transform: scale(1.1) rotate(5deg);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1.1) rotate(5deg);
+  }
+}

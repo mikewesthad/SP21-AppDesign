@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+html {
+  /* Create a base font size that is inherited for elements on the page. */
+  font-size: 22px;
+  /* Ditto for the font-family. */
+  font-family: "PT Sans", sans-serif;
+}
+
+/* Force all elements to inherit the font-family. Some elements (like button) don't inherit by
+default. */
+* {
+  font-family: inherit;
+}
+
+body {
+  background: url("./images/memphis-colorful-dim.png");
+  color: rgb(4, 0, 17);
+  max-width: 800px;
+  /* This margin auto trick centers block elements. */
+  margin: 0 auto;
+}

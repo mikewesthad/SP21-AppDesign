@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>👋🏽👋🏽👋🏽</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <script type="module" src="./js/index.js"></script>
+  </head>
+  <body>
+    <!-- Header - intro content like navigation, logo, etc. -->
+    <header>
+      <span id="nav-logo">💿💿💿</span>
+      <!-- Nav is used for naviation links -->
+      <nav id="main-nav">
+        <!-- Inside of a nav, you will usually place anchor tags. -->
+        <a href="./index.html">Home</a> | <a href="./about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Build the stats -->
+      <!-- Build an example question -->
+      <!-- Move it to a template -->
+
+      <!-- BEM -->
+      <ul class="stats">
+        <li class="stats__stat-container">
+          <div class="stats__stat-label">Score</div>
+          <div id="score" class="stats__stat-value">0</div>
+        </li>
+        <li class="stats__stat-container">
+          <div class="stats__stat-label">Level</div>
+          <div id="level" class="stats__stat-value">1</div>
+        </li>
+        <li class="stats__stat-container">
+          <div class="stats__stat-label">Question</div>
+          <div id="question-number" class="stats__stat-value">1/10</div>
+        </li>
+      </ul>
+
+      <div id="trivia-container">
+        <!-- We will insert a clone of the template here from JS. -->
+      </div>
+    </main>
+
+    <footer>© Mike Hadley, 2021</footer>
+
+    <template id="trivia-item-template">
+      <div class="trivia-item">
+        <p class="trivia-item__question"></p>
+        <ul class="trivia-item__answers">
+          <li><button class="trivia-item__button"></button></li>
+          <li><button class="trivia-item__button"></button></li>
+          <li><button class="trivia-item__button"></button></li>
+          <li><button class="trivia-item__button"></button></li>
+        </ul>
+      </div>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+header {
+  /* margin: 0 0 2rem 0; */
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#logo {
+  font-size: 2rem;
+}
+
+#main-nav {
+  font-size: 1.25rem;
+}

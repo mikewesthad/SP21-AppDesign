@@ -1,0 +1,15 @@
+.custom-increment > * {
+  margin-bottom: 0.5rem;
+}
+
+.custom-increment__buttons > * {
+  margin: 0 0.25rem;
+}
+
+.custom-increment__buttons > *:first-child {
+  margin-left: 0;
+}
+
+.custom-increment__buttons > *:last-child {
+  margin-right: 0;
+}

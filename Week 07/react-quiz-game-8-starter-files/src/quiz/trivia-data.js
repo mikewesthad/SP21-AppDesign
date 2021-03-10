@@ -101,20 +101,7 @@ triviaData = triviaData.map((item) => {
   };
 });
 
-function decodeTriviaData(data) {
-  data = data.map((item) => {
-    return {
-      ...item,
-      question: he.decode(item.question),
-      correct_answer: he.decode(item.correct_answer),
-      incorrect_answers: item.incorrect_answers.map((incorrect) => he.decode(incorrect)),
-    };
-  });
-  return data;
-}
-
 // Just for testing purposes:
-triviaData = triviaData.slice(0, 3);
+// triviaData = triviaData.slice(0, 3);
 
 export default triviaData;
-export { decodeTriviaData };

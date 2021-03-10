@@ -15,7 +15,7 @@ function convertDifficultyToPoints(difficulty) {
 /**
  * The Game is responsible for orchestrating the flow of the quiz game.
  */
-function Game({ triviaData }) {
+function Game() {
   const [gameState, setGameState] = useState({
     score: 0,
     triviaIndex: 0,

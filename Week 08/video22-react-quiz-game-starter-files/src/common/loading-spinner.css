@@ -1,0 +1,24 @@
+.loading-spinner {
+  text-align: center;
+  position: relative;
+}
+
+.loading-spinner__spinner {
+  display: inline-block;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  vertical-align: text-bottom;
+  border-style: solid;
+  border-right-color: transparent;
+  animation: loading-spinner 0.9s linear infinite;
+}
+
+@keyframes loading-spinner {
+  0% {
+    transform: rotate(0deg) translateZ(0);
+  }
+  100% {
+    transform: rotate(360deg) translateZ(0);
+  }
+}

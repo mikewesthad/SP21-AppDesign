@@ -1,0 +1,12 @@
+.page-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.page-header__logo {
+  font-size: 2rem;
+}
+
+.page-header__nav {
+  font-size: 1.25rem;
+}

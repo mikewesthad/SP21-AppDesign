@@ -1,0 +1,16 @@
+.dog-form {
+  text-align: center;
+}
+
+.dog-images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.dog-images__image {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}

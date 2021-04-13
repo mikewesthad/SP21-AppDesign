@@ -1,0 +1,56 @@
+/*
+ * This will be our entry point for any app-wide styling. Use it to set up general element-level
+ * styles.
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+html {
+  /* Create a base font size that is inherited for elements on the page. */
+  font-size: 22px;
+  /* Ditto for the font-family. */
+  font-family: "PT Sans", sans-serif;
+}
+
+/* Force all elements to inherit the font-family. Some elements (like button) don't inherit by
+default. */
+* {
+  font-family: inherit;
+}
+
+body {
+  background: url("./images/memphis-colorful-dim.png");
+  color: rgb(4, 0, 17);
+  max-width: 800px;
+  /* This margin auto trick centers block elements. */
+  margin: 0 auto;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+}
+
+button {
+  background: hsl(204, 99%, 37%);
+  color: white;
+  border: 4px solid hsl(204, 100%, 20%);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background: hsl(204, 100%, 31%);
+}
+
+button:active {
+  background: hsl(204, 100%, 24%);
+}
+
+input {
+  font-size: 0.75rem;
+}
+
+label {
+  margin-right: 0.5rem;
+}

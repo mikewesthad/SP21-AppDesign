@@ -1,0 +1,26 @@
+.stats {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.stats__stat-container {
+  min-width: 100px;
+  text-align: center;
+  color: white;
+  background: #000067;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+  margin: 0 0.25rem;
+}
+
+.stats__stat-label {
+  font-size: 0.6rem;
+  font-style: italic;
+}
+
+.stats__stat-value {
+  font-size: 1rem;
+}

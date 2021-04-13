@@ -1,8 +1,9 @@
 // Brings in the core functionality:
 import firebase from "firebase/app";
 
-// This brings in the firestore functionality:
+// This brings in the specific services we want to use:
 import "firebase/firestore";
+import "firebase/auth";
 
 // TODO: this shouldn't be directly in our source code. We don't want to commit
 // this to GitHub.
@@ -29,5 +30,7 @@ if (!firebaseConfig.measurementId) throw new Error("Missing firebase credential:
 firebase.initializeApp(firebaseConfig);
 
 const db = firebase.firestore();
+const auth = firebase.auth();
+const provider = new firebase.auth.GoogleAuthProvider();
 
-export { db, firebase };
+export { db, auth, provider, firebase };

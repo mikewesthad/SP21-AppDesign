@@ -1,0 +1,10 @@
+.emoji-list {
+  /* list-style: lower-roman; */
+  list-style: none;
+}
+
+/* ::before is a pseudo-element. */
+.emoji-list li::before {
+  content: "👉🏽";
+  padding-right: 0.5rem;
+}

@@ -1,0 +1,27 @@
+.chat-message {
+  margin: 1rem 0;
+  background: white;
+  border-radius: 0.25rem;
+  position: relative;
+  padding: 1rem;
+  background: hsl(293, 100%, 26%);
+  color: white;
+}
+
+.chat-message:nth-child(even) {
+  margin-right: 2rem;
+}
+
+.chat-message:nth-child(odd) {
+  margin-left: 2rem;
+}
+
+.chat-message__name {
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.chat-message__date {
+  margin-left: 0.25rem;
+  font-size: 0.5rem;
+}

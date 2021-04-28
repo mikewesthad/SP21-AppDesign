@@ -1,0 +1,42 @@
+.form__fieldset-wrapper {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.form__fieldset-wrapper:disabled {
+  opacity: 0.5;
+}
+
+.form__block {
+  margin-bottom: 1rem;
+}
+
+.form__label {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.form__field {
+  font-size: 0.75rem;
+  display: block;
+  width: 100%;
+  background: white;
+  border: 2px solid rgb(57, 57, 57);
+  padding: 0.25rem 0.25rem;
+  transition: all 0.2s;
+}
+
+.form__field:focus {
+  outline: none;
+  border-color: #0c7fdb;
+}
+
+.form__error {
+  color: #e80000;
+  font-weight: bold;
+  font-size: 0.75rem;
+  margin-top: 0.1rem;
+}

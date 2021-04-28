@@ -1,0 +1,26 @@
+.speak-button {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  font-size: 0.9rem;
+  background: hsl(204, 99%, 37%);
+  color: white;
+  outline: none;
+  border: 3px dashed transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.speak-button:hover {
+  background: hsl(204, 100%, 31%);
+  transform: rotate(1deg);
+}
+
+.speak-button:active {
+  background: hsl(204, 100%, 24%);
+  transform: rotate(2deg);
+}
+
+.speak-button:focus {
+  border: 3px dashed black;
+}
